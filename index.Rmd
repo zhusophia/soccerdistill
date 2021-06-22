@@ -1,5 +1,5 @@
 ---
-title: "soccer player birth month"
+title: "Soccer Player Birth Month"
 description: |
   People born later deserve justice too 
 site: distill::distill_website
@@ -23,7 +23,7 @@ raw_data <- x %>%
 write.csv(raw_data, file = "birthdates.csv")
 ```
 ## The UNDENIABLE TRUTH OF THE UNIVERSE
-### The data does not lie!
+### Data does not lie!
 
 ```{r}
 birthdaydata <- read_csv("birthdates.csv", col_types = cols(value = col_character()))
