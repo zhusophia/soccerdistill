@@ -1,9 +1,10 @@
 ---
-title: "soccer player"
+title: "soccer player birth month"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  People born later deserve justice too 
 site: distill::distill_website
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -21,7 +22,8 @@ raw_data <- x %>%
 
 write.csv(raw_data, file = "birthdates.csv")
 ```
-
+## The UNDENIABLE TRUTH OF THE UNIVERSE
+### The data does not lie!
 
 ```{r}
 birthdaydata <- read_csv("birthdates.csv", col_types = cols(value = col_character()))
